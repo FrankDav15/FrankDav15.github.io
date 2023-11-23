@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Contrato</title>
+    <title>crearReseña</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/jquery.bonsai.css">
@@ -19,14 +19,14 @@
 
       <!-- Name Title -->
 
-      <h1>Contrato</h1>
+      <h1>crearReseña</h1>
 
       <!-- Type and Stereotype -->
 
       <section style="margin-top: .5em;">
         <span class="alert alert-info">
-          <span class="node-icon staruml-icon icon-UMLClass"></span>
-          UMLClass
+          <span class="node-icon staruml-icon icon-UMLOperation"></span>
+          UMLOperation
         </span>
         
       </section>
@@ -41,13 +41,16 @@
           <span class="label label-info"><a href='cf9c8b720f3815adeccaf3ef6e48c6c4.html'><span class='node-icon staruml-icon icon-Project'></span>SportLink</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='594af663de577680f35b13183109d675.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Requsitos</a></span>
+          <span class="label label-info"><a href='50e910ac1475c24f765dcab0b54fb251.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Arquitectura</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='ce8f4a873a757843b6fa4d7f76c65876.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Clases</a></span>
+          <span class="label label-info"><a href='ec06bdf523c8af35f655815f4d20a3d1.html'><span class='node-icon staruml-icon icon-UMLModel'></span>Componentes</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='d8a042ea3ee40c347e461e3dd0432302.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Contrato</a></span>
+          <span class="label label-info"><a href='11504d269a7e48913c3f6e55dcce0e5c.html'><span class='node-icon staruml-icon icon-UMLInterface'></span>IGesitonEventosSeguidor</a></span>
+        
+          <span>::</span>
+          <span class="label label-info"><a href='8b580e286bc2929658c6c46295f93be8.html'><span class='node-icon staruml-icon icon-UMLOperation'></span>crearReseña</a></span>
         
       </section>
 
@@ -83,26 +86,6 @@
       <!-- Classifier -->
 
       
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-
-        
-        
-
-      
 
       <!-- Interface -->
 
@@ -135,47 +118,6 @@
       <!-- Attributes -->
 
       
-      <section>
-        <h3>Attributes</h3>
-        <table class="table table-striped table-bordered">
-          <tr>
-            <th>Visibility</th>
-            <th>Name</th>
-            <th>Type</th>
-            <th>Description</th>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="47c84a3e2118fc1790cae4a387163efa.html">condiciones</a></td>
-            <td><span class='label label-info'>none</span> </td>
-            <td></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="8bed55ca3800e567370f4d0fa0445e40.html">firmado</a></td>
-            <td><span class='label label-info'>none</span> </td>
-            <td></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="ad6d6fb1df0409508ea5e0190967a9be.html">anulado</a></td>
-            <td><span class='label label-info'>none</span> </td>
-            <td></td>
-          </tr>
-          
-          <tr>
-            <td>public</td>
-            <td><a href="3515e1dbe2d47ba906bd5c3c3576094e.html">esActivo</a></td>
-            <td><span class='label label-info'>none</span> </td>
-            <td></td>
-          </tr>
-          
-        </table>
-      </section>
-      
 
       <!-- Operations -->
 
@@ -191,6 +133,47 @@
 
       <!-- Parameters -->
 
+      
+      <section>
+        <h3>Parameters</h3>
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Direction</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Description</th>
+          </tr>
+          
+          <tr>
+            <td>in</td>
+            <td><a href="a2545e814452c8786f577682cea375ae.html">idSeguidor</a></td>
+            <td>int </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>in</td>
+            <td><a href="bab534c9c1d7253a5a4765e50110db91.html">idEvento</a></td>
+            <td>int </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>in</td>
+            <td><a href="36085618ccea8b3f560ab58d7eea044c.html">reseña</a></td>
+            <td><a href='7f769ecca293c35f1895d31d26d39c6b.html'><span class='node-icon staruml-icon icon-UMLClass'></span>Reseña</a> </td>
+            <td></td>
+          </tr>
+          
+          <tr>
+            <td>return</td>
+            <td><a href="13414b7153fa2ffca6e549eb9cc5af1b.html">(unnamed)</a></td>
+            <td>boolean </td>
+            <td></td>
+          </tr>
+          
+        </table>
+      </section>
       
 
       <!-- Diagrams -->
@@ -277,7 +260,7 @@
     
     <tr>
         <td>name</td>
-        <td>Contrato</td>
+        <td>crearReseña</td>
     </tr>
     
     
@@ -310,25 +293,8 @@
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
     <tr>
-        <td>isAbstract</td>
-        <td><span class='label label-info'>false</span></td>
-    </tr>
-    
-    
-    
-    
-    
-    <tr>
-        <td>isFinalSpecialization</td>
+        <td>isStatic</td>
         <td><span class='label label-info'>false</span></td>
     </tr>
     
@@ -346,9 +312,85 @@
     
     
     <tr>
-        <td>isActive</td>
+        <td>featureDirection</td>
+        <td>provided</td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>parameters</td>
+        <td>
+            
+            
+            <a href='a2545e814452c8786f577682cea375ae.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>idSeguidor</a>
+            
+            <span>, </span>
+            <a href='bab534c9c1d7253a5a4765e50110db91.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>idEvento</a>
+            
+            <span>, </span>
+            <a href='36085618ccea8b3f560ab58d7eea044c.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>reseña</a>
+            
+            <span>, </span>
+            <a href='13414b7153fa2ffca6e549eb9cc5af1b.html'><span class='node-icon staruml-icon icon-UMLParameter'></span>(Parameter)</a>
+            
+        </td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>raisedExceptions</td>
+        <td>
+            
+        </td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>concurrency</td>
+        <td>sequential</td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isQuery</td>
         <td><span class='label label-info'>false</span></td>
     </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>isAbstract</td>
+        <td><span class='label label-info'>false</span></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr>
+        <td>specification</td>
+        <td></td>
+    </tr>
+    
+    
+    
+    
+    
+    
     
     
     
@@ -380,19 +422,6 @@
 
       
       
-<section class="element-list">
-    <h3>Relationships</h3>
-    <ul class="nav nav-list">
-        
-        <li><a href='04affc6cdb8c2fe07816da17c1a6c88a.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(EntidadDeportiva—Contrato)</a></li>
-        
-        <li><a href='dfea3eb42841618ab87a90a25f69a17a.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(Oferta—Contrato)</a></li>
-        
-        <li><a href='7a669e921202196d146a5a1f555f1f56.html'><span class='node-icon staruml-icon icon-UMLAssociation'></span>(PersonaContratable—Contrato)</a></li>
-        
-    </ul>
-</section>
-
 
 
       <!-- Owned Elements -->
