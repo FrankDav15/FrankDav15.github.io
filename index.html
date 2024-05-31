@@ -1,21 +1,858 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
-    </head>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-style-mode" content="0"> <!-- 0 == light, 1 == dark -->
 
-    <frameset cols="25%,75%">
-        <frame src="contents/navigation.html" name="navigation">
-        <frame src="contents/cf9c8b720f3815adeccaf3ef6e48c6c4.html" name="content">
-    </frameset>
+    <title>Startex</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/Startex_Logo_BG.png">
+    <!-- CSS ============================================ -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/animation.css">
+    <link rel="stylesheet" href="assets/css/plugins/feature.css">
+    <link rel="stylesheet" href="assets/css/plugins/magnify.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/slick.css">
+    <link rel="stylesheet" href="assets/css/plugins/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/plugins/lightbox.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    <noframes>
-        <h2>Frame Alert</h2>
-        This document is designed to be viewed using the frames feature. If you see this message, you are using a non-frame-capable web client.
-        <br>
-        Link to<a href="overview-summary.html">Non-frame version.</a>
-    </noframes>
+</head>
+
+<body>
+    <main class="page-wrapper">
+        <!-- Start Header Area  -->
+        <header class="rainbow-header header-default header-not-transparent header-sticky">
+            <div class="container position-relative">
+                <div class="row align-items-center row--0">
+                    <div class="col-lg-3 col-md-6 col-4">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img class="logo-image" src="assets/images/Startex_Logo_BG.png" alt="Eternal Glow logo">
+                            </a>                           
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-6 col-8 position-static">
+                        <div class="header-right">
+                            <nav class="mainmenu-nav d-none d-lg-block">
+                                <ul class="mainmenu">
+                                    <li class="with-megamenu has-menu-child-item position-relative"><a id="menu-inicio" href="index.html">Home</a></li>
+                                    <li><a id="menu-about" href="about.html">About Us</a></li>
+                                    <li><a id="menu-contact" href="contact.html">Contact</a></li>
+                                    <ul class="nav-widget d-flex justify-content-between align-items-center">       
+                                        <li class="lang-icon">
+                                            <a href="#" id="btn-en"><img src="assets/images/icons/en_flag.png"></a>
+                                            <a href="#" id="btn-es"><img src="assets/images/icons/it_flag.png"></a>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </nav>
+
+                            <!-- Start Header Btn  -->
+                            <div class="header-btn">
+                                <a id="menu-reservar" class="btn-default btn-small round" target="_blank" href="https://app.hulivida.com/citas/bruno-ocampo-vazquez">CONTACT US</a>
+                            </div>
+                            <!-- End Header Btn  -->
+
+                            <!-- Start Mobile-Menu-Bar -->
+                            <div class="mobile-menu-bar ml--5 d-block d-lg-none">
+                                <div class="hamberger">
+                                    <button class="hamberger-button">
+                                        <i class="feather-menu"></i>
+                                    </button>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- End Header Area  -->
+        <div class="popup-mobile-menu">
+            <div class="inner">
+                <div class="header-top">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img class="logo-light" src="assets/images/Startex_Logo_BG.png" alt="Digital DC logo">
+                        </a>
+                    </div>
+                    <div class="close-menu">
+                        <button class="close-button">
+                            <i class="feather-x"></i>
+                        </button>
+                    </div>
+                </div>
+                <ul class="mainmenu">
+                    <li><a id="menu-inicio-mov" href="index.html">Home</a></li>
+                    <li><a id="menu-about-mov" href="about.html">About Us</a></li>
+                    <li><a id="menu-contact-mov" href="contact.html">Contact</a></li>
+                    <li class="lang-icon">
+                        <a href="#" id="btn-en-mov"><img src="assets/images/icons/en_flag.png"></a>
+                        <a href="#" id="btn-es-mov"><img src="assets/images/icons/it_flag.png"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Start Theme Style  -->
+        
+        <!-- End Theme Style  -->
+
+         <!-- Start Slider Area  -->
+        <div class="rainbow-testimonial-area  slider-style-4  slider-activation slider-dot rainbow-slick-dot rainbow-slick-arrow">
+            <div class="single-rainbow-slider slider-bg-image  bg_image bg_image--6 height-950 d-flex align-items-center">
+                <div class="container">
+                    <div class="row row--30 align-items-center">
+                        <div class="order-2 order-lg-1 col-lg-5">
+                            <div class="inner text-left pt--0">
+                                <h1 id="header-text" class="title theme-gradient mt--0" style="font-size: 84px;">STARTEX</h1>
+                                <p id="header-description" class="description" style="color: gray;" >The first AI Marketplace for SME's and Startups. Changing the M&A paradigm.</p>
+                                <div class="button-group mt--30"><a id="header-reservar" class="btn-default" target="_blank" href="https://app.hulivida.com/citas/bruno-ocampo-vazquez">CONTACT US</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Slider Area  -->
+
+
+        <!-- Start Seperator Area  -->
+        <div class="rbt-separator-mid">
+            <div class="container">
+                <hr class="rbt-separator m-0">
+            </div>
+        </div>
+        <!-- End Seperator Area  -->
+
+        <!-- Start Split Style-2 Area  -->
+            <div class="rainbow-split-area rainbow-section-gap mt--0 pt--0">
+                <div class="wrapper">
+                    <div class="rainbow-splite-style">
+                        <div class="split-wrapper">
+                            <div class="row g-0 radius-10 align-items-center">
+                                <div class="col-lg-12 col-xl-6 col-12">
+                                    <div class="thumbnail">
+                                        <img src="assets/images/banner/b2.webp" alt="split Images">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-xl-6 col-12 precio-serv" style="background-color: #22A2EB;" >
+                                    <div class="split-inner"  >
+                                        <h4 style="color: #fff;" class="title" data-sal="slide-up" data-sal-duration="400" data-sal-delay="200" id="about-eternal">Startex</h4>
+                                        <p style="color: #fff;" class="description" data-sal="slide-up" data-sal-duration="400" data-sal-delay="300" id="about-eternal-desc"><b>StartEx</b> is a reality with the ambitious project of creating a marketplace for Italian <b>SMEs and Startups </b>, with the aim of developing an ecosystem that enhances their strengths and encourages synergies.
+                                        <br> <br>
+                                        The platform offers a wide spectrum of <b>tools and services</b> capable of accompanying every type of user, from professionals to entrepreneurs and potential future founders.
+                                        <br> <br>
+                                        All thanks to the innovative <b>Startex Software</b> and the use of <b>Artificial Intelligence</b> to bring together the needs and offers of all our users, and to push the <b>M&A operations</b> for SMEs.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Split Style-2 Area  -->
+
+                       <!-- Srart About Area  -->
+        <div class="about-area about-style-4 rainbow-section-gap mt--0 pt--0">
+            <div class="container">
+                <div class="row row--40 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="video-btn">
+                            <div class="video-popup icon-center">
+                                <div class="overlay-content">
+                                    <div class="thumbnail"><img class="radius-small" src="assets/images/content/ia-bg.jpg" alt="Corporate Image"></div>
+                                </div>
+                            </div>
+                            <div class="video-lightbox-wrapper"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt_md--40 mt_sm--40">
+                        <div class="content">
+                            <div class="inner">
+                                <h3 id="why-choose" class="title">THE BUSINESS</h3>
+                                <ul class="feature-list">
+                                    <li>
+                                        <div class="icon">
+                                            <i class="feather-check"></i>
+                                        </div>
+                                        <div class="title-wrapper">
+                                            <h4 id="experience" class="title"><b>AI Automatize M&A</b> operations for SME’s Market</h4>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <i class="feather-check"></i>
+                                        </div>
+                                        <div class="title-wrapper">
+                                            <h4 id="results" class="title"><b>Services</b> for SME’s and StartupsResultados Sobresalientes.</h4>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <i class="feather-check"></i>
+                                        </div>
+                                        <div class="title-wrapper">
+                                            <h4 id="focus" class="title">User Friendly <b>management software</b></h4>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <i class="feather-check"></i>
+                                        </div>
+                                        <div class="title-wrapper">
+                                            <h4 id="adv-tech" class="title"><b>Marketplace</b> Platform <b>AI</b> Driven</h4>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="about-btn mt--30"><a id="contact-us-footer" class="btn-default" href="https://api.whatsapp.com/send?phone=5536460497">Contact Us</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End About Area  -->
+
+             <!-- Srart About Area  -->
+        <div class="about-area about-style-4 rainbow-section-gap mt--0 pt--0 pb--50">
+            <div class="container">
+                <div class="row row--40 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="video-btn">
+                            <div class="video-popup icon-center">
+                                <div class="overlay-content">
+                                    <div class="thumbnail"><img style="width: 350px; height: auto;" src="assets/images/content/mission.webp" alt="image"></div>
+                                </div>
+                            </div>
+                            <div class="video-lightbox-wrapper"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt_md--40 mt_sm--40">
+                        <div class="content">
+                            <div class="inner">
+                                <h3 id="why-choose" class="title"><span class="theme-gradient">OUR MISSION</span></h3>
+                                <p class="description b1 color-gray mb--0">We create an entrepreneurial ecosystem for SMEs and Startups in Europe, offering a dynamic and automatized marketplace that overcomes traditional barriers, facilitates access to essential resources, and promotes the use of artificial intelligence to optimize connections and growth.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End About Area  -->
+
+        <!-- Start Service Area  -->
+        <div class="service-area rainbow-section-gapTop mt--0 pt--0 pb--100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="content">
+                            <h3 id="mission" class="title text-center theme-gradient">OUR VISION</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="mb--10" id="mission-desc">To provide a <b>platform of synergies</b> through which SME businesses can thrive together through <b>M&A.</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Service Area  -->
+
+        <!-- Start tab Style One  -->
+            <div class="rainbow-tab-area rainbow-section-gap mt--0 pt--0">
+                <div class="container">
+                    <div class="row mb--40">
+                        <div class="col-lg-12">
+                            <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                                <h4 class="title w-600"><span class="theme-gradient">What We Do</span></h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row row row--30 align-items-center">
+                        <div class="col-lg-5">
+                            <img class="radius-small w--200 h--200" src="assets/images/content/problems-solutions.png" alt="Corporate Template">
+                        </div>
+                        <div class="col-lg-7 mt_md--40 mt_sm--40 order-2 order-lg-1">
+                            <div class="rainbow-default-tab">
+                                <ul class="nav nav-tabs tab-button" role="tablist">
+                                    <li class="nav-item tabs__tab " role="presentation">
+                                        <button class="nav-link active " id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Problems</button>
+                                    </li>
+                                    <li class="nav-item tabs__tab " role="presentation">
+                                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Solutions</button>
+                                    </li>
+                                </ul>
+                                <div class="rainbow-tab-content tab-content">
+                                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                        <ul>
+                                            <li>The major consulting firms don’t cover deals worth less than €25 million</li>
+                                            <li>83% of M&A deals don't boost shareholder value, possibly due to poor data quality, transparency and high costs in due diligence</li>
+                                            <li>Operations involving companies with operating revenue below $5 million aren't even considered by smaller consulting boutiques.</li>
+                                            <li>74% of failures are due to generational transitions</li>
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                            <li>We’ll target deal values under 25 million, a sector neglected by large consultancies</li>
+                                            <li>AI as a support to the human mind will automate due diligence processes.</li>
+                                            <li>Promoting networking between entrepreneurs and investors.</li>
+                                            <li>Transparent database</li>
+                                            <li>AI will streamline deal and matching processes, reducing timelines</li>
+                                            <li>AI will reduce average fees and eliminate the need for retaining fees</li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Start tab Style One  -->
+
+            <!-- Start Service-6 Area  -->
+            <div class="rainbow-service-area rainbow-section-gap mt--0 pt--0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="section-title text-left" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                                <h2 class="title w-600 mb--20 theme-gradient" id="how-works-header">Target Customer</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row--15 service-wrapper">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-sal="slide-up" data-sal-duration="700">
+                            <div class="service service__style--1  with-working-process text-center">
+                                <div class="icon">
+                                    <div class="line"></div><img src="assets/images/icons/banco.png">
+                                </div>
+                                <div class="content">
+                                    <h4 id="book" class="title"><a href="#">Institutional, Private Investors</a></h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                            <div class="service service__style--1 with-working-process text-center">
+                                <div class="icon">
+                                    <div class="line"></div><img src="assets/images/icons/alumno.png">
+                                </div>
+                                <div class="content">
+                                    <h4 id="evaluation" class="title"><a href="#">Entrepreneur, private users, students</a></h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">
+                            <div class="service service__style--1 with-working-process text-center">
+                                <div class="icon">
+                                    <div class="line"></div><img src="assets/images/icons/shopping-store.png">
+                                </div>
+                                <div class="content">
+                                    <h4 id="treatment" class="title"><a href="#">Small & Medium Enterprises</a></h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">
+                            <div class="service service__style--1 with-working-process text-center">
+                                <div class="icon">
+                                    <div class="line"></div><img src="assets/images/icons/mentor.png">
+                                </div>
+                                <div class="content">
+                                    <h4 id="enjoy" class="title"><a href="#">Professional, Advisors & Mentors</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Service-6 Area  -->
+
+            <!-- Start Portfolio Area  -->
+        <div class="rainbow-portfolio-area rainbow-section-gap masonary-wrapper-activation mt--0 pt--0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title text-left mb--50" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                            <h2 class="title theme-gradient" data-sal="slide-up" data-sal-duration="400" data-sal-delay="200">STARTEX M&A PRODUCT</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="portfolio-items grid-metro2 mesonry-list">
+                            <div class="resizer"></div>
+                            <!-- Start Single Portfolio  -->
+                            <div class="portfolio-2 cat--1 cat--4">
+                                <div class="rainbow-card portfolio">
+                                    <div class="inner">
+                                        <div class="thumbnail">
+                                            <figure class="card-image">
+                                                <a href="portfolio-details.html">
+                                                    <img src="assets/images/Startex_Logo_BG.png" alt="Portfolio-01">
+                                                </a>
+                                            </figure>
+                                            <a class="rainbow-overlay" href="portfolio-details.html"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Single Portfolio  -->
+
+                            <!-- Start Single Portfolio  -->
+                            <div class="portfolio-2 cat--2 cat--3 ">
+                                <div class="rainbow-card portfolio">
+                                    <div class="inner precio-serv">
+                                        <div class="content">
+                                            <div class="row">
+                                                <h4 style="color: #fff;" data-sal="slide-up" data-sal-duration="400" data-sal-delay="200">The StartEx Marketplace</h4>
+                                                <p style="color: #fff;" class="mb--0">Will be the core product of the startup. Here with a B2B focus the platforms will permit investors, entrepreneurs, funds and SME companies to sell, buy and evaluate their businesses, in a user-friendly and automatized way.</p>
+                                                <p style="color: #fff;" class="mb--0">The M&A operations for SMEs will be the core business of Startex Marketplace, thanks to an 80% automatized process.</p>
+                                           </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Start Single Portfolio  -->
+                            <div class="portfolio-2 cat--2 cat--3 ">
+                                <div class="rainbow-card portfolio">
+                                    <div class="inner">
+                                        <div class="content">
+                                            <div class="row">
+                                                <h4 class="theme-gradient" data-sal="slide-up" data-sal-duration="400" data-sal-delay="200">On the Marketplace</h4>
+                                                <ul class="ml--20 p--0" data-sal="slide-up" data-sal-duration="400" data-sal-delay="200">
+                                                    <p class="mb--0">There will be a section for the research of investors, talents, co-founders, and professionals, who will be able to propose their services to the companies and propose their prices (the platform will charge them a fee).</p>
+                                                    <p class="mb--0">Another product that the platform will give is a simple, intuitive, and user-friendly management system for SMEs.</p>
+                                                </ul>
+                                           </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- End Portfolio Area  -->
+
+            <!-- Start progress style-large  -->
+            <div class="rainbow-progressbar-area rainbow-section-gap mt--0 pt--0">
+                <div class="container">
+                    <div class="row mb--50">
+                        <div class="col-lg-10 offset-lg-1">
+                            <div class="section-title text-center" data-sal="slide-up" data-sal-duration="400" data-sal-delay="150">
+                                <h4 class="subtitle">
+                                    <span class="theme-gradient">GLOBAL POTENTIAL</span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-lg-10 offset-lg-1">
+                            <div class="row row--30 mt_dec--30">
+
+                                <!-- Start Single Progress Bar  -->
+                                <div class="col-lg-3 col-md-6 col-sm-6 mt--30 col-12">
+                                    <div class="radial-progress-single">
+                                        <div class="radial-progress" data-percent="80" data-bar-color="#059DFF" data-track-color="#0f0f11">
+                                            <div class="circle-text">
+                                                <span class="count">69.1</span>
+                                            </div>
+                                        </div>
+                                        <div class="circle-info">
+                                            <h4 class="title">AMERICA</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single Progress Bar  -->
+
+                                <!-- Start Single Progress Bar  -->
+                                <div class="col-lg-3 col-md-6 col-sm-6 mt--30 col-12">
+                                    <div class="radial-progress-single">
+                                        <div class="radial-progress" data-percent="60" data-bar-color="#059DFF" data-track-color="#0f0f11">
+                                            <div class="circle-text">
+                                                <span class="count">63.2</span>
+                                            </div>
+                                        </div>
+                                        <div class="circle-info">
+                                            <h4 class="title">EUROPE</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single Progress Bar  -->
+
+                                <!-- Start Single Progress Bar  -->
+                                <div class="col-lg-3 col-md-6 col-sm-6 mt--30 col-12">
+                                    <div class="radial-progress-single">
+                                        <div class="radial-progress" data-percent="70" data-bar-color="#059DFF" data-track-color="#0f0f11">
+                                            <div class="circle-text">
+                                                <span class="count">55</span>
+                                            </div>
+                                        </div>
+                                        <div class="circle-info">
+                                            <h4 class="title">ASIA</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single Progress Bar  -->
+
+                                <!-- Start Single Progress Bar  -->
+                                <div class="col-lg-3 col-md-6 col-sm-6 mt--30 col-12">
+                                    <div class="radial-progress-single">
+                                        <div class="radial-progress" data-percent="95" data-bar-color="#059DFF" data-track-color="#0f0f11">
+                                            <div class="circle-text">
+                                                <span class="count">43.2</span>
+                                            </div>
+                                        </div>
+                                        <div class="circle-info">
+                                            <h4 class="title">AFRICA + OCEANIA</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single Progress Bar  -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End progress style-large  -->
+
+
+            <!-- Start Split Style-2 Area  -->
+            <div class="rainbow-split-area rainbow-section-gap mt--0 pt--0 mb--0 pb--0">
+                <div class="wrapper">
+                    <div class="row">
+                        <div class="col-lg-12 mb--40">
+                            <div class="section-title text-center" data-sal="slide-up" data-sal-duration="400" data-sal-delay="150">
+                                <h4 class="subtitle "><span class="theme-gradient">STARTEX</span></h4>
+                                <h2 class="title w-600 mb--20">M&A TREND</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rainbow-splite-style">
+                        <div class="split-wrapper">
+                            <div class="row g-0 radius-10 align-items-center">
+                                <div class="col-lg-12 col-xl-6 col-12">
+                                    <div class="thumbnail">
+                                        <img src="assets/images/content/increase.jpg" alt="split Images">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-xl-6 col-12">
+                                    <div class="split-inner">
+                                        <h4 class="title theme-gradient" data-sal="slide-up" data-sal-duration="400" data-sal-delay="200">PARTNERSHIP</h4>
+                                        <p class="description" data-sal="slide-up" data-sal-duration="400" data-sal-delay="300">The rise in capital costs and increased regulatory scrutiny are fueling joint ventures and minority investments.
+                                        </p>
+                                        <h4 class="title theme-gradient" data-sal="slide-up" data-sal-duration="400" data-sal-delay="200">GENERATIVE AI</h4>
+                                        <p class="description" data-sal="slide-up" data-sal-duration="400" data-sal-delay="300">Used for M&A deal processes less than 16% today, but it is expected to reach 80% over the next three years
+                                        </p>
+                                        <h4 class="title theme-gradient" data-sal="slide-up" data-sal-duration="400" data-sal-delay="200">PRIVATE EQUITY</h4>
+                                        <p class="description" data-sal="slide-up" data-sal-duration="400" data-sal-delay="300">Despite the downturn in 2023, Private Equity maintains a strong position with over 56% of the operations
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Split Style-2 Area  -->
+
+            <!-- Start Main Counter up-5 Area  -->
+            <div class="rainbow-counterup-area rainbow-section-gap mt--0 pt--0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                            <div class="count-box counter-style-4 text-center">
+                                <div>
+                                    <div class="count-number"><span class="counter">55</span>%</div>
+                                </div>
+                                <h5 class="counter-title">increasing deals in the first quarter of 2024 compared to 2023</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">
+                            <div class="count-box counter-style-4 text-center">
+                                <div>
+                                    <div class="count-number"><span class="counter">71</span>%</div>
+                                </div>
+                                <h5 class="counter-title">Of businesses in the lowmid-market are projected to change hands in the next 10 years</h5>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">
+                            <div class="count-box counter-style-4 text-center">
+                                <div>
+                                    <div class="count-number"><span class="counter">60</span>%</div>
+                                </div>
+                                <h5 class="counter-title">Of CEOs plan to make atleast one acquisition in the next three years</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- End Main Counter up-5 Area  -->
+
+        <!-- Start Timeline-Style-Four  -->
+            <div class="rainbow-timeline-area rainbow-section-gap mt--0 pt--0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                                <h2 class="title theme-gradient" data-sal="slide-up" data-sal-duration="400" data-sal-delay="200">PROJECT MAIN GOALS</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-10 offset-lg-1 mt--50">
+                            <div class="timeline-style-two bg-color-blackest">
+                                <div class="row row--0">
+                                    <div class="col-lg-3 col-md-3 rainbow-timeline-single no-gradient">
+                                        <div class="rainbow-timeline">
+                                            <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">Prototyping and Market tests</h6>
+                                            <div class="progress-line">
+                                                <div class="line-inner"></div>
+                                            </div>
+                                            <div class="progress-dot">
+                                                <div class="dot-level">
+                                                    <div class="dot-inner"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 rainbow-timeline-single no-gradient">
+                                        <div class="rainbow-timeline">
+                                            <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">Capital Raising & Founding</h6>
+                                            <div class="progress-line">
+                                                <div class="line-inner"></div>
+                                            </div>
+                                            <div class="progress-dot">
+                                                <div class="dot-level">
+                                                    <div class="dot-inner"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 rainbow-timeline-single no-gradient">
+                                        <div class="rainbow-timeline">
+                                            <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">Startex Platform Development</h6>
+                                            <div class="progress-line">
+                                                <div class="line-inner"></div>
+                                            </div>
+                                            <div class="progress-dot">
+                                                <div class="dot-level">
+                                                    <div class="dot-inner"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 rainbow-timeline-single no-gradient">
+                                        <div class="rainbow-timeline">
+                                            <h6 class="title" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">Business Devopment & Launch</h6>
+                                            <div class="progress-line">
+                                                <div class="line-inner"></div>
+                                            </div>
+                                            <div class="progress-dot">
+                                                <div class="dot-level">
+                                                    <div class="dot-inner"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Timeline-Style-Four  -->
+
+
+        <!-- Start Team-Style-Default Style-Three Area  -->
+            <div class="rainbow-team-area rainbow-section-gap pt--0 mt--0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 mb--15">
+                            <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                                <h4 class="subtitle">
+                                    <span class="theme-gradient">OUR TEAM</span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row--30">
+                        <div class="col-lg-4 col-md-6 col-12 mt--30" data-sal="slide-up" data-sal-duration="700">
+                            <div class="rainbow-team team-style-two">
+                                <div class="inner">
+                                    <div class="thumbnail"><img src="assets/images/nic.jpg" alt="Corporate Template"></div>
+                                    <div class="content">
+                                        <h2 class="title">Jacopo Farris</h2>
+                                        <h6 class="subtitle theme-gradient">Sr Product Designer</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 mt--30" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                            <div class="rainbow-team team-style-two">
+                                <div class="inner">
+                                    <div class="thumbnail"><img src="assets/images/nic.jpg" alt="Corporate Template"></div>
+                                    <div class="content">
+                                        <h2 class="title">Nicolò Joswig</h2>
+                                        <h6 class="subtitle theme-gradient">App Developer</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 mt--30" data-sal="slide-up" data-sal-duration="700" data-sal-delay="200">
+                            <div class="rainbow-team team-style-two">
+                                <div class="inner">
+                                    <div class="thumbnail"><img  src="assets/images/guy.jpg" alt="Corporate Template"></div>
+                                    <div class="content">
+                                        <h2 class="title">Claudio Muca</h2>
+                                        <h6 class="subtitle theme-gradient">Accounts Manager</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Team-Style-Default Style-Three Area  -->
+
+
+        <!-- Start Seperator Area  -->
+        <div class="rbt-separator-mid">
+            <div class="container">
+                <hr class="rbt-separator m-0">
+            </div>
+        </div>
+        <!-- End Seperator Area  -->
+
+        <!-- Start Footer Area  -->
+        <footer class="rainbow-footer footer-style-default variation-two">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <h4 id="information" class="title">Information</h4>
+                                <div class="inner">
+                                    <ul class="footer-link link-hover">
+                                        <li><a id="about-us-footer" href="about.html">About Us</a></li>
+                                        <li><a id="faq-footer" href="faq.html">FAQ</a></li>
+                                        <li><a id="contact-footer" href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                            <div class="rainbow-footer-widget">
+                                <h4 id="contact-title-footer" class="title">Contact</h4>
+                                <div class="inner">
+                                    <ul class="footer-link link-hover">
+                                        <li><a href="mailto:eternalglow.medicalaesthetic@gmail.com"><i class="feather-mail"></i> example@gmail.com</a></li>
+                                        <li><a target="_blank" href="https://api.whatsapp.com/send?phone=5536460497"><i class="feather-headphones"></i> +00 00 0000 0000</a></li>
+                                    </ul>
+                                    <ul class="social-icon social-default justify-content-start">  
+                                        <li><a href="https://www.facebook.com/">
+                                                <i class="feather-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.twitter.com">
+                                                <i class="feather-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.instagram.com/">
+                                                <i class="feather-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.linkdin.com/">
+                                                <i class="feather-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer Area  -->
+        <!-- Start Copy Right Area  -->
+        <div class="copyright-area copyright-style-one">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-8 col-sm-12 col-12">
+                        <div class="copyright-left">
+                            <ul class="ft-menu link-hover">
+                                <li>
+                                    <a id="privacy-policy" href="privacy-policy.html">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a id="contact-us-footer" href="contact.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-4 col-sm-12 col-12">
+
+                        <div class="copyright-right text-center text-lg-end">
+                            <p class="copyright-text">© Startex</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Copy Right Area  -->
+    </main>
+
+    <!-- All Scripts  -->
+    <!-- Start Top To Bottom Area  -->
+    <div class="rainbow-back-top">
+        <i class="feather-arrow-up"></i>
+    </div>
+    <!-- End Top To Bottom Area  -->
+    <!-- JS
+============================================ -->
+<!--Icon-Font-->
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <script src="assets/js/vendor/modernizr.min.js"></script>
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="assets/js/vendor/waypoint.min.js"></script>
+    <script src="assets/js/vendor/wow.min.js"></script>
+    <script src="assets/js/vendor/counterup.min.js"></script>
+    <script src="assets/js/vendor/feather.min.js"></script>
+    <script src="assets/js/vendor/sal.min.js"></script>
+    <script src="assets/js/vendor/masonry.js"></script>
+    <script src="assets/js/vendor/imageloaded.js"></script>
+    <script src="assets/js/vendor/magnify.min.js"></script>
+    <script src="assets/js/vendor/lightbox.js"></script>
+    <script src="assets/js/vendor/slick.min.js"></script>
+    <script src="assets/js/vendor/easypie.js"></script>
+    <script src="assets/js/vendor/text-type.js"></script>
+    <script src="assets/js/vendor/jquery.style.swicher.js"></script>
+    <script src="assets/js/vendor/js.cookie.js"></script>
+    <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+    
+    <script src="assets/js/traduccion.js"></script>
+</body>
 
 </html>
