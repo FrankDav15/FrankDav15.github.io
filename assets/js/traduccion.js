@@ -3,48 +3,45 @@ $(document).ready(function(){
     function cambiarIdioma(idioma) {
         if (idioma === "it") {
             $("html").attr("lang", "it");
-            $("#btn-es").hide();
+            $("#btn-it").hide();
             $("#btn-en").show();
-            $("#btn-es-mov").hide();
+            $("#btn-it-mov").hide();
             $("#btn-en-mov").show();
-            $("#menu-inicio").text('Inicio');
-            $("#menu-servicios").text('Servicios');
-            $("#menu-faq").text('Preguntas Frecuentes');
-            $("#menu-about").text('Conocenos');
-            $("#menu-contact").text('Contactanos');
-            $("#menu-inicio-mov").text('Inicio');
-            $("#menu-servicios-mov").text('Servicios');
-            $("#menu-faq-mov").text('Preguntas Frecuentes');
-            $("#menu-about-mov").text('Conocenos');
-            $("#menu-contact-mov").text('Contactanos');
-           
+            $("#menu-inicio").text('Inizio');
+            $("#menu-about").text('Chi Siamo');
+            $("#menu-contact").text('Contattaci');
+            $("#menu-inicio-mov").text('Inizio');
+            $("#menu-about-mov").text('Chi Siamo');
+            $("#menu-contact-mov").text('Contattaci');
+            $(".contact-button").text('CONTATTACI');
+            $("#header-description").text('Il primo Marketplace AI per PMI e Startup. Cambiare il paradigma M&A.');
+            
 
         } else if (idioma === "en") {
             $("html").attr("lang", "en");
             $("#btn-en").hide();
-            $("#btn-es").show();
+            $("#btn-it").show();
             $("#btn-en-mov").hide();
-            $("#btn-es-mov").show();
+            $("#btn-it-mov").show();
             $("#menu-inicio").text('Home');
-            $("#menu-servicios").text('Services');
-            $("#menu-faq").text('FAQ');
             $("#menu-about").text('About Us');
             $("#menu-contact").text('Contact'); 
             $("#menu-inicio-mov").text('Home');
-            $("#menu-servicios-mov").text('Services');
-            $("#menu-faq-mov").text('FAQ');
             $("#menu-about-mov").text('About Us');
             $("#menu-contact-mov").text('Contact');
+            $(".contact-button").text('CONTACT US');
+            $("#header-description").text('The first AI Marketplace for SMEs and Startups. Changing the M&A paradigm.');
+           
             
         }
     }
 
-    //Por default al cargar es español.
+    //Por default al cargar en inglés
     cambiarIdioma("en");
 
     // Al hacer clic en el botón de Español
-    $("#btn-es").click(function(){
-        cambiarIdioma("es");
+    $("#btn-it").click(function(){
+        cambiarIdioma("it");
     });
 
     // Al hacer clic en el botón de Inglés
@@ -53,8 +50,8 @@ $(document).ready(function(){
     });
 
      // Al hacer clic en el botón de Español
-    $("#btn-es-mov").click(function(){
-        cambiarIdioma("es");
+    $("#btn-it-mov").click(function(){
+        cambiarIdioma("it");
     });
 
     // Al hacer clic en el botón de Inglés
