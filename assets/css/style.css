@@ -15172,6 +15172,20 @@ iframe {
 
 }
 
+.team-div {
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.team-div:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.mission-vission-div{
+  text-align: right;
+  padding-right: 50px;
+}
+
 .lang-icon {
   display: none;
 }
@@ -16316,3 +16330,71 @@ body.active-light-mode .slider-area.bg-transparent .inner button.btn-default.btn
   }
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+
+@media only screen and (max-width: 767px) {
+  .problems-solutions-elements {
+    font-size: 12px;
+  }
+
+  #who-are-we-title{
+    font-size: 30px;
+    text-align: center;
+    padding-right: 0px;
+  }
+
+  div.form-group {
+    text-align: center;
+  }
+
+  iframe, .google-map-style-1 {
+    width: auto;
+    height: 300px;
+  }
+
+  .google-map-style-1 {
+    text-align: center;
+  }
+
+  #who-are-we-desc{
+    font-size: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .team-img{
+    height: 200px;
+  }
+
+  .team-title{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .counter-title-1 {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  #mission-desc, #vision-desc {
+    font-size: 10px;
+  }
+
+  .mission-vission-div{
+    padding-right: 0px;
+  }
+
+  div.icon{
+    height: auto;
+    min-width: 150px;
+  }
+
+}
+
+.counter-title-1 {
+    margin-top: 20px;
+  }
+
+
+
+
